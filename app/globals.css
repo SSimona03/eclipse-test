@@ -6,6 +6,10 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --padding-desktop: 20px;
+  --magenta: #e61577;
+  --purple: #992478;
+  --max-width: 1300px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,4 +21,145 @@
 }
 
 body {
+  width: 100vw;
+  max-width: 100%;
+}
+
+/* Media Desktop > min 1025px */
+
+/********* Navbar **********/
+.navbar {
+  width: 100vw;
+  border-bottom: 2px solid rgb(242, 242, 242, 0.6);
+}
+.nav-container {
+  max-width: var(--max-width);
+  display: flex;
+  padding-left: var(--padding-desktop);
+  padding-right: var(--padding-desktop);
+  justify-content: space-between;
+  margin: auto;
+
+  padding: 20px 0;
+}
+.menu-mobile {
+  display: none;
+}
+.menu-items {
+  display: flex;
+}
+.menu-items > li {
+  margin-right: 20px;
+  font-size: 18px;
+}
+.menu-items > li:hover {
+  cursor: pointer;
+  color: var(--magenta);
+}
+
+/********** Main **********/
+
+/********** Home **********/
+.home-container {
+  max-width: var(--max-width);
+  margin: auto;
+}
+
+/********** product Box **********/
+.price-cut {
+  position: relative;
+}
+.price-cut::after {
+  content: " ";
+  display: block;
+  width: 110px;
+  border-top: 1px solid #808080;
+  position: absolute;
+  left: -5px;
+  bottom: 10px;
+  transform: rotate(-5deg);
+}
+
+/********** Stock Bor **********/
+.stock-bar {
+  background-color: #d4d4d8;
+}
+.inStock {
+  width: 20%;
+  height: 5px;
+  background-color: var(--magenta);
+}
+.stock-text {
+  color: var(--magenta);
+}
+
+/********** Footer **********/
+footer {
+  width: 100%;
+  border-top: 2px solid rgb(242, 242, 242, 0.6);
+  height: 150px;
+  margin: auto;
+  padding-left: var(--padding-desktop);
+  padding-right: var(--padding-desktop);
+  padding-top: 20px;
+}
+.footer-menu {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.footer-menu > a {
+  margin: 0 40px;
+  font-weight: 500;
+}
+.footer-menu > a:hover {
+  color: var(--magenta);
+}
+
+/* Media Tablet */
+@media only screen and (max-width: 1024px) {
+  body {
+  }
+}
+
+/********** Media Mobile **********/
+@media only screen and (max-width: 768px) {
+  body {
+  }
+
+  /********** Navbar **********/
+  .menu {
+    width: 100px;
+    position: relative;
+    margin-top: 10px;
+  }
+  .menu-mobile {
+    display: block;
+    cursor: pointer;
+    padding-right: 20px;
+  }
+  .menu-items {
+    display: none;
+    flex-direction: column;
+  }
+  .menu-items > li {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+  .menu:hover .menu-items {
+    display: block;
+  }
+  .menu:hover .menu-mobile {
+    display: none;
+  }
+
+  /********** footer **********/
+  .footer-menu {
+    flex-direction: column;
+  }
+  .footer-menu > a {
+    margin: 2px 0px;
+    font-size: 15px;
+  }
 }
