@@ -1,5 +1,24 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Info
+
+The project is created with React and Javascript in Next13 Framework because I wanted to deploy it in Vercel.
+For styling I used Tailwind and CSS.
+I could't download the images from Figma so I took one from google and icons are from FontAwsome.
+
+In figma the width of the desktop card was 1542px,
+I wasen't sure if that was supposed to be the size but I ajusted a little because it was to big.
+
+##
+
+##
+
+##
+
+##
+
+##
+
 ## Getting Started
 
 First, run the development server:
