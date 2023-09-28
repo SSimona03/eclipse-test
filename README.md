@@ -9,6 +9,9 @@ I could't download the images from Figma so I took one from google and icons are
 In figma the width of the desktop card was 1542px,
 I wasen't sure if that was supposed to be the size but I ajusted a little because it was to big.
 
+For Media I used Mobile max-width 768px and Tablet max-width 1024px.
+While checking responsive I used from chrome devices for Desktop : Mac, Tablet: Ipad Air and Mobile: Iphone 12
+
 ##
 
 ##
