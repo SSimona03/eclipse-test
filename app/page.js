@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="home-container flex gap-5 flex-col p-5">
       {/***** box-product 1 ******/}
-      <div className=" relative box box-recommended border border-black rounded-2xl shadow-red-400 p-4 hover: cursor-pointer">
+      <div className=" relative  box box-recommended border border-black rounded-2xl shadow-red-400 p-4 hover: cursor-pointer flex place-content-center  md:max-w-[700px] lg:max-w-[1200px]">
         <div className="absolute recommended px-2 py-0.5 ml-10 bg-zinc-700 text-white">Eclipse recommended</div>
         {/***** box-one image ******/}
         <div className="image-box  flex md:flex-col mx-auto">
@@ -52,7 +52,7 @@ export default function Home() {
           </div>
         </div>
         {/***** box-four price ******/}
-        <div className="price-box md:w-9/12 md:ml-4">
+        <div className="price-box lg:w-10/12 md:ml-4">
           {/***** price ******/}
           <div className="price flex mt-5 ">
             <div >
@@ -76,7 +76,7 @@ export default function Home() {
               <div><i className="pr-2 fa-solid fa-check  "></i>PayPal credit available</div>
             </div>
           </div>
-          {/***** but button ******/}
+          {/*****  button ******/}
           <button className="flex buy-button hover:brightness-110 w-full mb-4">
             <div className="mx-auto flex">
               <i className=" fa-solid fa-sm fa-cart-shopping text-gray-100 pr-2 pt-3"></i> <p className=" font-semibold text-white">ADD TO BASKET</p>
@@ -87,7 +87,7 @@ export default function Home() {
 
       </div >
       {/***** box-product 2 ******/}
-      <div className="box shadow-lg border border-slate-100 rounded-2xl shadow-slate-200 p-4 hover: cursor-pointer">
+      <div className="box shadow-lg border border-slate-100 rounded-2xl shadow-slate-200 p-4 hover: cursor-pointer  md:max-w-[700px] lg:max-w-[1200px] flex place-content-center">
         {/***** box-one image ******/}
         <div className="image-box  flex md:flex-col mx-auto">
           <Image
@@ -133,7 +133,7 @@ export default function Home() {
           </div>
         </div>
         {/***** box-four price ******/}
-        <div className="price-box md:w-9/12  md:ml-4">
+        <div className="price-box lg:w-10/12 md:ml-4">
           {/***** price ******/}
           <div className="price flex mt-5 ">
             <div >
@@ -157,7 +157,7 @@ export default function Home() {
               <div><i className="pr-2 fa-solid fa-check  "></i>PayPal credit available</div>
             </div>
           </div>
-          {/***** but button ******/}
+          {/***** button ******/}
           <button className="flex buy-button hover:brightness-110 w-full mb-4">
             <div className="mx-auto flex">
               <i className=" fa-solid fa-sm fa-cart-shopping text-gray-100 pr-2 pt-3"></i> <p className=" font-semibold text-white">ADD TO BASKET</p>
@@ -168,7 +168,7 @@ export default function Home() {
 
       </div >
       {/***** box-product 3 ******/}
-      <div className="box shadow-lg border border-slate-100 rounded-2xl shadow-slate-200 p-4 hover: cursor-pointer">
+      <div className="box shadow-lg border border-slate-100 rounded-2xl shadow-slate-200 p-4 hover: cursor-pointer md:max-w-[700px] lg:max-w-[1200px] flex place-content-center">
         {/***** box-one image ******/}
         <div className="image-box  flex md:flex-col mx-auto">
           <Image
@@ -214,7 +214,7 @@ export default function Home() {
           </div>
         </div>
         {/***** box-four price ******/}
-        <div className="price-box md:w-9/12 md:ml-4">
+        <div className="price-box lg:w-10/12 md:ml-4">
           {/***** price ******/}
           <div className="price flex mt-5 ">
             <div >
@@ -238,7 +238,7 @@ export default function Home() {
               <div><i className="pr-2 fa-solid fa-check  "></i>PayPal credit available</div>
             </div>
           </div>
-          {/***** but button ******/}
+          {/*****  button ******/}
           <button className="flex buy-button hover:brightness-110 w-full mb-4">
             <div className="mx-auto flex">
               <i className=" fa-solid fa-sm fa-cart-shopping text-gray-100 pr-2 pt-3"></i> <p className=" font-semibold text-white">ADD TO BASKET</p>
