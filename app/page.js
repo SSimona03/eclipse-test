@@ -138,9 +138,9 @@ export default function Home() {
           <div className="price flex mt-5 ">
             <div >
               <div className="price-cut text-xs text-gray-400 font-semibold">RRP £1,799.00</div>
-              <div className="main-price pr-2 text-2xl md:text-3xl"> £1,599.00</div>
+              <div className="font-bold text-black pr-2 text-2xl md:text-3xl"> £1,599.00</div>
             </div>
-            <div className="text-red-600 border w-24 text-center h-5 mt-5 md:mt-6 bg-rose-200 rounded text-xs mb-4">Save £200</div>
+
           </div>
           {/***** stock ******/}
           <div className="line-stock mb-5 pt-2">
@@ -219,9 +219,9 @@ export default function Home() {
           <div className="price flex mt-5 ">
             <div >
               <div className="price-cut text-xs text-gray-400 font-semibold">RRP £1,799.00</div>
-              <div className="main-price pr-2 text-2xl md:text-3xl"> £1,599.00</div>
+              <div className="font-bold text-black  pr-2 text-2xl md:text-3xl"> £1,599.00</div>
             </div>
-            <div className="text-red-600 border w-24 text-center h-5 mt-5 md:mt-6 bg-rose-200 rounded text-xs mb-4">Save £200</div>
+
           </div>
           {/***** stock ******/}
           <div className="line-stock mb-5 pt-2">
